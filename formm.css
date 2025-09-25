@@ -1,0 +1,89 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAND - Water Sales</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+      margin: 20px;
+      color: #0277bd;
+    }
+
+    h2 {
+      color: #01579b;
+      text-align: left;
+      border-left: 6px solid #0288d1;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    form {
+      background: #ffffff;
+      padding: 25px 30px;
+      border-radius: 12px;
+      max-width: 420px;
+      box-shadow: 0 8px 20px rgba(2, 119, 189, 0.2);
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 25px;
+    }
+
+    td {
+      padding: 12px 5px;
+      vertical-align: middle;
+    }
+
+    label {
+      font-weight: 600;
+      color: #01579b;
+      display: inline-block;
+      margin-bottom: 6px;
+      font-size: 15px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      border: 2px solid #81d4fa;
+      border-radius: 8px;
+      font-size: 15px;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus, input[type="email"]:focus {
+      border-color: #0288d1;
+      outline: none;
+      background-color: #e1f5fe;
+    }
+
+    input[type="radio"] {
+      margin-right: 8px;
+      cursor: pointer;
+      transform: scale(1.1);
+    }
+
+    input[type="submit"], input[type="reset"] {
+      background-color: #0288d1;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      margin-right: 12px;
+      font-size: 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 12px rgba(2, 119, 189, 0.3);
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover {
+      background-color: #01579b;
+      box-shadow: 0 6px 16px rgba(1, 87, 155, 0.5);
+    }
+  </style>
+</head>

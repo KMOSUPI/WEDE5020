@@ -1,0 +1,88 @@
+/* contact-style.css */
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    color: #033e3e;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #00bcd4;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #004d40;
+}
+
+/* Headings */
+h1, h3 {
+    color: #006064;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Contact blocks (Office, Call Us, Email Us) */
+.contact-box {
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    background-color: #e0f2f1;
+    padding: 15px;
+    width: 280px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #00796b;
+}
+
+/* Link styling */
+a {
+    color: #00796b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Google Map iframe */
+iframe {
+    display: block;
+    margin: 30px auto;
+    width: 90%;
+    height: 300px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
